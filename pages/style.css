@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
 
 .page {
   background-color: #2A2C2F;
@@ -39,3 +40,93 @@
   display: flex;
 }
 
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 92px;
+}
+
+.lead__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  color: #FFFFFF;
+  max-width: 720px;
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+.lead__subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 640px;
+  margin: 0 0 64px;
+}
+
+.lead__image {
+  width: 984px;
+  height: 615px;  
+}
+
+.lead__caption {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 8px 0 0;
+}
+
+.intro {
+  margin: 0 0 92px calc((100% - 984px) / 2);
+  width: 690px;
+}
+
+.intro__title {
+  margin: 0 0 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+
+.intro__text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  color: #FFFFFF;
+  margin: 0 0 32px;
+}
+
+.intro__list {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 284px);
+  grid-template-rows: repeat(3, 213px);
+  grid-gap: 16px;
+  margin: 0 auto 92px;
+}
