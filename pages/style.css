@@ -1,0 +1,41 @@
+@import url(../vendor/normalize.css);
+
+.page {
+  background-color: #2A2C2F;
+}
+
+.header {
+  margin: 0 48px 56px;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+.header__lang-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.header__lang-link_text-deck {
+  text-decoration-line: underline;
+}
+
+.header__lang-link:nth-of-type(2n) {
+  margin-left: 18px;
+}
+
+.header__lang-links {
+  display: flex;
+}
+
