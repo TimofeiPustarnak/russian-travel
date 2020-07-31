@@ -3,6 +3,8 @@
 
 .page {
   background-color: #2A2C2F;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -128,5 +130,14 @@
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 213px);
   grid-gap: 16px;
-  margin: 0 auto 92px;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 92px;
 }
+
+
+
+
+
+
+
