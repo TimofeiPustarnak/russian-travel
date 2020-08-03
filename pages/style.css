@@ -192,6 +192,11 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
+  transition: all .3s ease;
+}
+
+.place__link:hover {
+  opacity: .8;
 }
 
 .place__paragraphs {
@@ -264,6 +269,11 @@
   background: rgba(42, 44, 47, .3);
   width: 100%;
   display: flex;
+  transition: all .4s ease;
+}
+
+.cover__overlay:hover {
+  background: rgba(42, 44, 47, .8);
 }
 
 .cover__link {
@@ -288,6 +298,11 @@
   color: #FFFFFF;
   text-decoration: none;
   margin: 0 18px 0 0;
+  transition: all .3s ease;
+}
+
+.footer__link:hover {
+  opacity: .8;
 }
 
 .footer__link:nth-of-type(5n) {
