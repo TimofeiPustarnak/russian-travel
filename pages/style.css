@@ -5,6 +5,8 @@
   background-color: #2A2C2F;
   display: flex;
   flex-direction: column;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .header {
