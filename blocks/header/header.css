@@ -1,0 +1,30 @@
+@import url(./__lang-link/_text-deck/header__lang-link_text-deck.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-links/header__lang-links.css);
+@import url(./__logo/header__logo.css);
+.header {
+  margin: 0 48px 56px;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+  .header {
+    margin: 0 48px 54px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .header {
+    margin: 0 24px 56px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 250px) {
+  .header {
+    margin: 0 16px 48px;
+    padding-top: 16px;
+  }
+}
