@@ -9,15 +9,8 @@
   }
 }
 
-@media (max-width: 1023px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 250px) {
   .lead__image {
     width: 100%;
-  }
-}
-
-@media (max-width: 767px) and (min-width: 250px) {
-  .lead__image {
-    width: 100%;
-    /* height: 615px;   */
   }
 }

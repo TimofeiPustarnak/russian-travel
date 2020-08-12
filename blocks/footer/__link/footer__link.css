@@ -14,7 +14,7 @@
   opacity: .8;
 }
 
-.footer__link:nth-of-type(5n) {
+.footer__link:last-of-type {
   margin: 0;
 }
 

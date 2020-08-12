@@ -1,3 +1,3 @@
 # Проект 3: Путешествие по России
 
-ссылка проекта на GitHub: https://github.com/TimofeiPustarnak/russian-travel
+ссылка на проект: https://timofeipustarnak.github.io/russian-travel/
