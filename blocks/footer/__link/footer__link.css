@@ -25,7 +25,7 @@
     margin: 0 0 32px;
   }
 
-  .footer__link:nth-of-type(5n) {
+  .footer__link:last-of-type {
     margin-bottom: 48px;
   }
 }
