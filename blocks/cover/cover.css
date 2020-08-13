@@ -6,7 +6,7 @@
 .cover {
   margin: 0 auto 92px;
   width: 92.5%;
-  padding-bottom: calc(100% * .925 * .625);
+  height: 740px;
   background-repeat: no-repeat;
   background-image: url(../../images/__background.jpg);
   background-size: contain;
@@ -16,24 +16,32 @@
   max-width: 1184px;
 }
 
-@media (min-width: 1281px)
-{
+@media (max-width: 1279px) {
   .cover {
-    padding-bottom: calc(1280px * .925 * .625);
+    width: 1024px;
+    height: 740px;
   }
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1023px) {
   .cover {
-    width: 100%;
-    padding-bottom: calc(100% * .625);
+    width: 768px;
+    height: 480px;
   }
 }
 
 @media (max-width: 767px) {
   .cover {
-    margin: 0 0 64px;
-    width: 100%;
-    padding-bottom: calc(100% * .625);
+    margin: 0 auto 64px;
+    width: 576px;
+    height: 360px;
+  }
+}
+
+@media (max-width: 574px) {
+  .cover {
+    margin: 0 auto 64px;
+    width: 320px;
+    height: 200px;
   }
 }
