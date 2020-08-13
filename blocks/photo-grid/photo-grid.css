@@ -6,7 +6,6 @@
   /* grid-template-rows: repeat(3, min-content); */
   grid-gap: 16px;
   margin: 0 auto 92px;
-  font-family: 'Inter', Arial, sans-serif;
   max-width: 1184px;
 }
 
