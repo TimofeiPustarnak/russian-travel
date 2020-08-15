@@ -1,9 +1,5 @@
 .cover__subtitle {
   margin: 0;
-  font-family: Inter;
-  /* ну так я и указал запасные шрифты для всех блоков кроме грида с фотками, 
-  может проблема в том что font-family: Inter и так бы унаследовался?
-  но тогда я не понимаю в чем критичность*/
   max-width: 360px;
   font-style: normal;
   font-weight: normal;
